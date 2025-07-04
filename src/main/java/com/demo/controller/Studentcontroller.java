@@ -39,4 +39,11 @@ public List<Studententity> stu4(@PathVariable int b) throws AgeNotFoundException
 public List<Studententity> stu7(@PathVariable int c) throws IdNotFoundException {
 	return ss.studs(c);	
 }
+
+
+
+@GetMapping("/git")
+public String s1() {
+	return "print value";
+}
 }
